@@ -1,6 +1,6 @@
 ## Rafa Mraz 👋
 
-**'Educador (professor/desenvolvedor)'**
+**`Educador (professor/desenvolvedor)`**
 <!--
 **rafaelmoraespereira/rafaelmoraespereira** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
