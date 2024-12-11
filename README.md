@@ -3,6 +3,7 @@
 **`Educador (professor/desenvolvedor)`**
 
 Minha missão é ajudar a empoderar pessoas a transformarem suas vidas por meio da educação, inspirando-as a gerar impacto positivo e contribuir de maneira original e sustentável para a sociedade em suas trajetórias profissionais - e em especial na busca do seu primeiro emprego.
+
 Desde 2014 atuo como professor na área de Informática do Instituto Federal do Rio Grande do Norte - IFRN. Minha formação é em Engenharia Elétrica (2007) pela Universidade de Pernambuco - UPE, e mestrado em Educação (2017) pela Universidade Estadual do Rio Grande do Norte - UERN.
 
 Eventualmente também produzo conteúdos técnicos para o YouTube, com o intuito de oferecer material suplementar às aulas das disciplinas de Redes de Computadores, Sistemas Operacionais, e Informática Básica.
