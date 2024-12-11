@@ -5,9 +5,10 @@
 Minha missão é ajudar a empoderar pessoas a transformarem suas vidas por meio da educação, inspirando-as a gerar impacto positivo e contribuir de maneira original e sustentável para a sociedade em suas trajetórias profissionais - e em especial na busca do seu primeiro emprego.
 
 ## Onde me encontrar?
-- email: rafaelmoraespereira@gmail.com
-- linkedin: https://www.linkedin.com/in/rafael-moraes-13835451/
-- blog de educação: https://moraesrafael.medium.com/
+- e-mail: rafaelmoraespereira@gmail.com
+- Linkedin: https://www.linkedin.com/in/rafael-moraes-13835451/
+- Blog de Educação: https://moraesrafael.medium.com/
+- Currículo Lattes: http://lattes.cnpq.br/1559123780681813
 
 <!--
 **rafaelmoraespereira/rafaelmoraespereira** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
