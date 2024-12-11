@@ -2,7 +2,7 @@
 
 **`Educador (professor/desenvolvedor)`**
 
-Minha missão é ajudar a empoderar pessoas a transformarem suas vidas por meio da educação, inspirando-as a gerar impacto positivo e contribuir de maneira sustentável para a sociedade em suas trajetórias profissionais.
+Minha missão é ajudar a empoderar pessoas a transformarem suas vidas por meio da educação, inspirando-as a gerar impacto positivo e contribuir de maneira sustentável para a sociedade em suas trajetórias profissionais - e em especial na busca do seu primeiro emprego.
 
 <!--
 **rafaelmoraespereira/rafaelmoraespereira** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
