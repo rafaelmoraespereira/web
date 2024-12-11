@@ -1,6 +1,9 @@
 ## Rafa Mraz 👋
 
 **`Educador (professor/desenvolvedor)`**
+
+Minha missão é ajudar a empoderar pessoas a transformarem suas vidas por meio da educação, inspirando-as a gerar impacto positivo e contribuir de maneira sustentável para a sociedade em suas trajetórias profissionais.
+
 <!--
 **rafaelmoraespereira/rafaelmoraespereira** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
