@@ -1,0 +1,169 @@
+/* style.css 
+ * Autor: Rafael Moraes
+ * Descrição: Estilos principais do site
+ * Data: 2025-02-10
+ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    max-width: 900px;
+    margin: auto;
+    padding: 10px;
+}
+
+.module-tittle {
+    color: #009adb;
+    padding: 0;
+    border-bottom: 5px solid #009adb;
+    font-family: 'Inter', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-stretch: ultra-condensed;
+    margin: 0;
+
+}
+
+.topic-tittle {
+    margin-top: 20px;
+    padding: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-bottom: 2px solid black;
+    margin-bottom: 1em;
+
+}
+
+.subtopic-tittle {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 15px;
+}
+
+.subtopic-references {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: .5em;
+    border-bottom: 1px solid lightgray;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.subtopic-references-tittle {
+    margin-left: 3em;
+    margin-top: .5em;
+}
+
+.subtopic-references-list {
+    margin-left: 4em;
+    line-height: 1.5em;
+}
+
+.table-module-content {
+    width: 80%;
+    border: 1px solid black;
+    margin-left: 50px;
+    margin-top: 10px;
+    border-collapse: collapse;
+
+}
+
+.table-module-content tr td a {
+    text-decoration: none;
+}
+
+.table-module-header {
+    background-color: lightgray;
+}
+
+.table-module-foot {
+    font-weight: bold;
+}
+
+.table-module-content th,
+.table-module-content td {
+    padding: 4px;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+.table-module-content caption {
+    font-weight: bold;
+    padding: .7em;
+}
+
+p {
+    padding: 3px;
+    margin-left: 50px;
+    line-height: 1.5rem;
+}
+
+li,
+ul {
+    padding: 3px;
+    margin-left: 2rem;
+}
+
+.main-objectives {
+    margin: 2em 0;
+    padding: 1em;
+    padding-left: 7em;
+    background-color: rgb(231, 226, 226);
+    text-indent: -6em;
+}
+
+.objectives {
+    margin: 0;
+    padding: 1em;
+    padding-left: 7em;
+    text-indent: -6em;
+    background-color: rgb(231, 226, 226);
+}
+
+section ul li ul li {
+    list-style-type: decimal;
+}
+
+.assessments p {
+    margin-left: 1.5em;
+}
+
+.assessments-objective {
+    background-color: gainsboro;
+    padding: 1em;
+    padding-left: 5em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    text-indent: -4em;
+    margin-left: 0 !important;
+}
+
+.assessments>ul {
+    list-style-type: none;
+}
+
+.assessments ul ul {
+    list-style-type: disc;
+    font-weight: normal;
+    line-height: 1.5em;
+}
+
+.assessments h3 {
+    border: 1px solid black;
+    margin: 1em 0;
+    background-color: black;
+    color: white;
+}
+
+.assessments h4 {
+    padding: 1em;
+    margin-left: 1em;
+}
+
+.block-questions {
+    background-color: lightyellow;
+    padding: 1em;
+    padding-left: 5em;
+    margin-top: 1em;
+    text-indent: -4em;
+}

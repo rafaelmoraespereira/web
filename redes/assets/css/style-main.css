@@ -1,0 +1,108 @@
+/* style.css 
+ * Autor: Rafael Moraes
+ * Descrição: Estilos principais do site
+ * Data: 2025-02-10
+ */
+
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    max-width: 900px;
+    margin: auto;
+    padding: 10px;
+}
+
+h1 {
+    color: #009adb;
+    padding: 0;
+    border-bottom: 5px solid #009adb;
+    font-family: 'Inter', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-stretch: ultra-condensed;
+    margin: 0;
+    margin-bottom: 1em;
+}
+
+table {
+    width: 80%;
+    border: 1px solid black;
+    margin-left: 50px;
+    margin-top: 10px;
+    border-collapse: collapse;
+}
+
+table caption {
+    font-weight: bold;
+    padding: .7em;
+}
+
+table thead {
+    background-color: lightgray;
+}
+
+table th, td {
+    padding: 4px;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+table td a {
+    text-decoration: none;
+}
+
+table tfoot {
+    font-weight: bold;
+
+}
+
+p {
+    padding: 3px;
+    margin-left: 50px;
+    line-height: 1.5rem;
+    margin: 0;
+    padding: 1em;
+    padding-left: 7em;
+    text-indent: -6em;
+    background-color: rgb(231, 226, 226);
+}
+
+li,
+ul {
+    padding: 3px;
+    margin-left: 2rem;
+}
+
+h3 {
+    margin-top: 2em;
+    padding: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-bottom: 2px solid black;
+    margin-bottom: 1em;
+}
+
+ol, ul {
+    margin-left: 4em;
+    margin-top: 1em;
+}
+
+ol a {
+    text-decoration: none;
+}
+
+.first-columm {
+    width: 10%;
+    text-align: center;
+}
+
+.second-columm {
+    width: 60%;
+}
+
+.third-columm {
+    width: 20%;
+    text-align: center;
+}
