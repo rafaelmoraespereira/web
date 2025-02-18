@@ -124,6 +124,14 @@ section ul li ul li {
     list-style-type: decimal;
 }
 
+.topic-section {
+    padding-top: 2em;
+}
+
+.assessments {
+    padding-top: 2em;
+}
+
 .assessments p {
     margin-left: 1.5em;
 }
