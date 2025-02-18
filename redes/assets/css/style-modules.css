@@ -175,3 +175,13 @@ section ul li ul li {
     margin-top: 1em;
     text-indent: -4em;
 }
+
+.back-to-page {
+    padding: 1em;
+}
+
+#warning {
+    background-color: rgb(212, 211, 211);
+    margin: 1em 2em;
+    padding: 1em;
+}
