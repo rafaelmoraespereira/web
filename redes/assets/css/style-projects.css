@@ -87,6 +87,13 @@ table tfoot {
 
 }
 
+footer {
+    text-align: right;
+    color: darkgray;
+    border-top: 1px solid darkgray;
+    padding: .8em 0;
+}
+
 .table-columm-2 {
     text-align: center;
 }

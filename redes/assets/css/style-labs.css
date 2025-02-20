@@ -4,11 +4,13 @@
 :root {
     --cor-padrao-azul: rgb(65, 94, 155);
 }
+
 body {
     font-family: sans-serif;
     padding: 0px;
     margin: 0;
 }
+
 header {
     background-color: var(--cor-padrao-azul);
     padding: 15px;
@@ -19,13 +21,15 @@ header {
 main {
     padding: 0 20px;
 }
+
 ul {
     list-style-type: square;
 }
-h1 { 
+
+h1 {
     color: var(--cor-padrao-azul);
     text-shadow: .2em .2em .2em silver;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 5px;
 }
 
@@ -38,21 +42,22 @@ h1 {
     text-shadow: none;
 }
 
-address > p {
+address>p {
     margin: 20px 0 8px 0;
 }
 
-address > a {
+address>a {
     color: white;
 }
 
-address > a:hover {
+address>a:hover {
     font-weight: bolder;
     background-color: rgba(233, 233, 66, 0.966);
     color: var(--cor-padrao-azul);
     border-radius: 5px;
     padding: 3px;
 }
+
 h2 {
     background-image: linear-gradient(45deg, var(--cor-padrao-azul) 60%, white);
     color: white;
@@ -61,24 +66,29 @@ h2 {
     font-weight: bold;
     line-height: 1.2em;
 }
+
 h3 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: bold;
     color: rgb(78, 77, 77);
 }
-address{
+
+address {
     font-family: 'Courier New', Courier, monospace;
     font-style: normal;
     line-height: 0em;
     color: white;
 }
+
 li#lista-videos {
     list-style-type: square;
     list-style-position: outside;
 }
+
 code {
     font-size: large;
 }
+
 /*tabelas de comandos gerais dos labs*/
 .tabela-comandos {
     font-family: 'Courier New', Courier, monospace;
@@ -87,6 +97,7 @@ code {
     width: 1400px;
     min-width: 500px;
 }
+
 .tabela-comandos thead tr {
     font-family: monospace;
     font-weight: bold;
@@ -95,13 +106,16 @@ code {
     background-color: rgb(200, 200, 200);
     border: solid 1px rgb(109, 109, 109);
 }
+
 .tabela-comandos thead th {
     border: solid 1px rgb(109, 109, 109);
     padding-left: 5px;
 }
+
 .tabela-comandos tbody td:first-of-type {
     width: 400px;
 }
+
 .tabela-comandos tbody td {
     border: solid 1px rgb(109, 109, 109);
     padding: 3px;
@@ -118,6 +132,7 @@ code {
     box-shadow: 5px 5px 3px rgb(124, 124, 124);
     width: 700px;
 }
+
 .tabela-complementar thead tr {
     font-family: monospace;
     font-weight: bold;
@@ -126,9 +141,11 @@ code {
     background-color: rgb(200, 200, 200);
     border: solid 1px rgb(109, 109, 109);
 }
+
 .tabela-complementar tbody {
     font-size: 1.1em;
 }
+
 .tabela-complementar tbody td {
     border: solid 1px rgb(109, 109, 109);
     padding: 3px;
@@ -142,17 +159,17 @@ code {
     border-collapse: collapse;
 }
 
-.table-lab02 > tbody > tr > th {
+.table-lab02>tbody>tr>th {
     background-color: darkgrey;
     text-align: center;
 }
 
-.table-lab02 > tbody > tr > td {
+.table-lab02>tbody>tr>td {
     text-align: center;
     border: 1px solid black;
 }
 
-.exercicios_li > li {
+.exercicios_li>li {
     margin: 10px;
 }
 
@@ -161,23 +178,29 @@ a {
     color: var(--cor-padrao-azul);
     line-height: 1.5em;
 }
-a:hover{
+
+a:hover {
     background-color: var(--cor-padrao-azul);
     color: white;
     border-radius: 5px;
     padding: 3px;
 }
+
 a:visited {
     text-decoration: none;
 }
+
 figcaption {
     /*text-indent: 20rem;*/
     font-style: italic;
     margin-left: 500px;
 }
+
 img {
-    display: block; margin-left: 100px
+    display: block;
+    margin-left: 100px
 }
+
 footer {
     background-color: darkgrey;
     margin: auto;
