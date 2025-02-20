@@ -28,6 +28,13 @@ a:hover {
     /* Cor quando o mouse estiver sobre o link */
 }
 
+footer {
+    text-align: right;
+    color: darkgray;
+    border-top: 1px solid darkgray;
+    padding: .8em 0;
+}
+
 .module-tittle {
     color: royalblue;
     padding: 0;
