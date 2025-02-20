@@ -12,18 +12,29 @@
 }
 
 body {
-    max-width: 900px;
+    max-width: 850px;
     margin: auto;
     padding: 10px;
 }
 
+a {
+    text-decoration: none;
+    color: royalblue;
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: darkslategrey;
+    /* Cor quando o mouse estiver sobre o link */
+}
+
 .module-tittle {
-    color: #009adb;
+    color: royalblue;
     padding: 0;
-    border-bottom: 5px solid #009adb;
+    border-bottom: 5px solid royalblue;
     font-family: 'Inter', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-stretch: ultra-condensed;
-    margin: 0;
+    margin: 1em 0;
 
 }
 

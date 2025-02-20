@@ -97,8 +97,9 @@ a {
 }
 
 a:hover {
-    color: darkslategrey; /* Cor quando o mouse estiver sobre o link */
-  }
+    color: darkslategrey;
+    /* Cor quando o mouse estiver sobre o link */
+}
 
 .first-columm {
     width: 10%;
