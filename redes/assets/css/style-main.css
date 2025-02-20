@@ -4,7 +4,7 @@
  * Data: 2025-02-10
  */
 
- * {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -12,19 +12,18 @@
 }
 
 body {
-    max-width: 900px;
+    max-width: 850px;
     margin: auto;
     padding: 10px;
 }
 
 h1 {
-    color: #009adb;
+    color: royalblue;
     padding: 0;
-    border-bottom: 5px solid #009adb;
+    border-bottom: 5px solid royalblue;
     font-family: 'Inter', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-stretch: ultra-condensed;
-    margin: 0;
-    margin-bottom: 1em;
+    margin: 1em 0;
 }
 
 table {
@@ -44,7 +43,8 @@ table thead {
     background-color: lightgray;
 }
 
-table th, td {
+table th,
+td {
     padding: 4px;
     border-collapse: collapse;
     border: 1px solid black;
@@ -84,14 +84,21 @@ h3 {
     margin-bottom: 1em;
 }
 
-ol, ul {
+ol,
+ul {
     margin-left: 4em;
     margin-top: 1em;
 }
 
-ol a {
+a {
     text-decoration: none;
+    color: royalblue;
+    transition: color 0.3s ease-in-out;
 }
+
+a:hover {
+    color: darkslategrey; /* Cor quando o mouse estiver sobre o link */
+  }
 
 .first-columm {
     width: 10%;
@@ -105,4 +112,11 @@ ol a {
 .third-columm {
     width: 20%;
     text-align: center;
+}
+
+blockquote {
+    background-color: rgb(231, 226, 226);
+    padding: 0.7em;
+    line-height: 1.5em;
+    margin-bottom: 2em;
 }

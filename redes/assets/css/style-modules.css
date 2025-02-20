@@ -185,3 +185,8 @@ section ul li ul li {
     margin: 1em 2em;
     padding: 1em;
 }
+
+.third-columm {
+    width: 20%;
+    text-align: center;
+}
