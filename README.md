@@ -9,7 +9,7 @@ Desde 2014 atuo como professor na área de Informática do Instituto Federal do 
 Eventualmente produzo conteúdos técnicos para o [YouTube](https://www.youtube.com/@mundotecnauta9847), com o intuito de oferecer material suplementar às aulas das disciplinas de Redes de Computadores, Sistemas Operacionais, e Informática Básica. E escrevo regularmente na plataforma [Medium](https://moraesrafael.medium.com/) tópicos que julgo relevantes para discentes e docentes.
 
 ## Onde me encontrar?
-- e-mail: rafaelmoraespereira@gmail.com
+- e-mail: [rafaelmoraespereira@gmail.com](rafaelmoraespereira@gmail.com)
 - Linkedin: [https://www.linkedin.com/in/rafael-moraes-13835451/](https://www.linkedin.com/in/rafael-moraes-13835451/)
 - Blog de Educação: [https://moraesrafael.medium.com/](https://moraesrafael.medium.com/)
 - Blog Dev: [https://dev.to/rafaelmoraespereira](https://dev.to/rafaelmoraespereira)
