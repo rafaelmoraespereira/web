@@ -10,11 +10,11 @@ Eventualmente produzo conteúdos técnicos para o [YouTube](https://www.youtube.
 
 ## Onde me encontrar?
 - e-mail: rafaelmoraespereira@gmail.com
-- Linkedin: https://www.linkedin.com/in/rafael-moraes-13835451/
-- Blog de Educação: https://moraesrafael.medium.com/
-- Blog Dev: https://dev.to/rafaelmoraespereira
-- Currículo Lattes: http://lattes.cnpq.br/1559123780681813
-- Canal YouTube: https://www.youtube.com/@mundotecnauta9847
+- Linkedin: [https://www.linkedin.com/in/rafael-moraes-13835451/](https://www.linkedin.com/in/rafael-moraes-13835451/)
+- Blog de Educação: [https://moraesrafael.medium.com/](https://moraesrafael.medium.com/)
+- Blog Dev: [https://dev.to/rafaelmoraespereira](https://dev.to/rafaelmoraespereira)
+- Currículo Lattes: [http://lattes.cnpq.br/1559123780681813](http://lattes.cnpq.br/1559123780681813)
+- Canal YouTube: [MundoTecnauta](https://www.youtube.com/@mundotecnauta9847)
 
 <!--
 **rafaelmoraespereira/rafaelmoraespereira** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
