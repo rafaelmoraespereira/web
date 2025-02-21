@@ -1,4 +1,4 @@
-## Rafa Mraz 👋
+## Rafael Mraz 👋
 
 **`Educador (professor/desenvolvedor)`**
 
