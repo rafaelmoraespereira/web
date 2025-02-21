@@ -8,7 +8,7 @@ Desde 2014 atuo como professor na área de Informática do Instituto Federal do 
 
 Eventualmente produzo conteúdos técnicos para o [YouTube](https://www.youtube.com/@mundotecnauta9847), com o intuito de oferecer material suplementar às aulas das disciplinas de Redes de Computadores, Sistemas Operacionais, e Informática Básica. E escrevo regularmente na plataforma [Medium](https://moraesrafael.medium.com/) tópicos que julgo relevantes para discentes e docentes.
 
-## Onde me encontrar?
+## 🌐 Onde me encontrar?
 - e-mail: [rafaelmoraespereira@gmail.com](rafaelmoraespereira@gmail.com)
 - Linkedin: [https://www.linkedin.com/in/rafael-moraes-13835451/](https://www.linkedin.com/in/rafael-moraes-13835451/)
 - Blog de Educação: [https://moraesrafael.medium.com/](https://moraesrafael.medium.com/)
@@ -16,7 +16,6 @@ Eventualmente produzo conteúdos técnicos para o [YouTube](https://www.youtube.
 - Currículo Lattes: [http://lattes.cnpq.br/1559123780681813](http://lattes.cnpq.br/1559123780681813)
 - Canal YouTube: [MundoTecnauta](https://www.youtube.com/@mundotecnauta9847)
 
-## 🌐 Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/rafael-moraes-13835451/) [![Medium](https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white)](https://medium.com/@https://medium.com/@moraesrafael) [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://youtube.com/@https://www.youtube.com/@mundotecnauta9847) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:rafael.moraes@ifrn.edu.br) 
 
 # 💻 Tech Stack:
