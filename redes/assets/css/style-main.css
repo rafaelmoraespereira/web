@@ -26,6 +26,35 @@ h1 {
     margin: 1em 0;
 }
 
+nav {
+    margin-left: 35em;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;   /* Mantém Flexbox */
+    align-items: center; /* Alinha verticalmente */
+    padding-left: 0; /* Remove qualquer indentação padrão */
+}
+
+nav ul li {
+    margin: 0; /* Remove margens extras */
+    padding: 0; /* Remove espaçamentos internos */
+    margin: 0 -.3em;
+}
+
+.svg-icon {
+    filter: invert(0%) sepia(100%) saturate(7500%) hue-rotate(0deg); /* Cor inicial (preto) */
+    transition: filter 0.1s ease-in-out;
+    height: auto;
+    padding: 0;
+    margin-top: -1em;
+  }
+  
+  .svg-icon:hover {
+    filter: invert(38%) sepia(80%) saturate(1500%) hue-rotate(200deg); /* Cor alterada (RoyalBlue) */
+  }
+
 table {
     width: 80%;
     border: 1px solid black;
