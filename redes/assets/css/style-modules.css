@@ -204,6 +204,10 @@ section ul li ul li {
     padding: 1em;
 }
 
+.first-columm {
+    text-align: center;
+}
+
 .third-columm {
     width: 20%;
     text-align: center;
