@@ -25,22 +25,19 @@ h1 {
     font-stretch: ultra-condensed;
     margin: 1em 0;
 }
-
-nav {
-    margin-left: 35em;
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgb(229, 228, 228);
+    border-bottom: 1px solid rgb(229, 228, 228);
+    padding: 5px;
+    margin-bottom: 20px;
 }
 
-nav ul {
-    list-style-type: none;
-    display: flex;   /* Mantém Flexbox */
-    align-items: center; /* Alinha verticalmente */
-    padding-left: 0; /* Remove qualquer indentação padrão */
-}
-
-nav ul li {
-    margin: 0; /* Remove margens extras */
-    padding: 0; /* Remove espaçamentos internos */
-    margin: 0 -.3em;
+.navigation li {
+    list-style: none;
+    
 }
 
 .svg-icon {
@@ -159,6 +156,7 @@ footer {
 }
 
 .questions {
-    margin-left: 4.5em;
+    margin-left: 2em;
+    list-style-type: none;
     
 }
