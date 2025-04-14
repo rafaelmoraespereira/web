@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="author" content="Rafael de Moraes">
+    <link rel="stylesheet" href="../assets/css/style-projects.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="../assets/img/favicon.ico">
+    <title>M01 | Perguntas</title>
+</head>
+<body>
+    <h1>PERGUNTAS DO MÓDULO 2 - ENDEREÇAMENTO IP, PROTOCOLOS E CONFIGURAÇÕES BÁSICAS</h1>
+    <h2>Tópico 1: Fundamentos de Endereçamento IPv4</h2>
+    <ol class="questionaire">
+        <li>Explique com suas palavras o que é um endereço IPv4 e qual é sua importância dentro de uma rede de computadores.</li>
+        <li>O que motivou a criação do IPv6? Quais limitações do IPv4 ele pretende resolver?</li>
+        <li>Em uma rede com múltiplos computadores, por que é necessário que cada dispositivo possua um endereço IP único? O que poderia acontecer se dois dispositivos tivessem o mesmo IP?</li>
+        <li>Diferencie o uso de endereços IP públicos e privados. Dê exemplos de onde cada tipo é utilizado e por quê.</li>
+        <li>Quais os três blocos de endereçamentos IPv4 privados, definidos na RFC 1918?</li>
+        <li>Diante do crescimento da Internet das Coisas (IoT), o IPv4 continuará sendo suficiente? Justifique sua resposta considerando o número de dispositivos e as características do protocolo.</li>
+        <li>O que é uma máscara de rede e como ela atua em conjunto com o endereço IPv4?</li>
+        <li>O endereço 127.0.0.1 é bastante conhecido em redes. Explique sua função e onde ele é utilizado.</li>
+        <li>O que é NAT (Network Address Translation) e qual sua relação com a escassez de endereços IPv4?</li>
+        <li>O que é o protocolo TCP e qual o seu principal objetivo dentro da pilha TCP/IP?</li>
+        <li>O que são sockets na comunicação em redes de computadores? Explique seu papel na comunicação cliente-servidor e como eles se relacionam com os protocolos TCP e UDP.</li>
+        <li>Explique a função das portas no protocolo TCP. Cite pelo menos três portas bem conhecidas, os serviços associados a elas e por que é importante conhecê-las na administração de redes.</li>
+        <li>Explique o conceito de "conexão orientada" no TCP. Por que isso é importante para a confiabilidade da comunicação?</li>
+        <li>Descreva o processo conhecido como "Three-Way Handshake" e qual é sua função durante o estabelecimento de uma conexão TCP.</li>
+        <li>Como o TCP garante que os dados cheguem corretamente ao destino e na ordem certa? Quais mecanismos ele utiliza?</li>
+        <li>O TCP realiza controle de congestionamento na rede. Como isso funciona e por que é importante?</li>
+        <li>Em que situações o TCP pode não ser o protocolo mais adequado, mesmo sendo confiável?</li>
+        <li>Dê um exemplo prático de aplicação que depende do TCP e justifique por que ele é o protocolo ideal para esse caso.</li>
+        <li>O que acontece se um segmento TCP se perde durante a transmissão? Como o protocolo lida com esse problema?</li>
+        <li>O que caracteriza o protocolo UDP como um protocolo "não orientado à conexão"? Como isso impacta sua performance?</li>
+        <li>Quais são as principais diferenças entre os protocolos UDP e TCP em relação à confiabilidade e estrutura de controle?</li>
+        <li>Cite pelo menos duas aplicações ou serviços que utilizam o UDP e explique por que esse protocolo é escolhido nesses casos.</li>
+        <li>O UDP não realiza controle de fluxo nem de congestionamento. Quais são as vantagens e desvantagens disso em redes modernas?</li>
+
+        <li>Faça os cálculos requisitados abaixo:</li>
+
+        <table border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; font-family: Arial, sans-serif; width: 70%;">
+            <thead style="background-color: #0074c1; color: white;">
+              <tr>
+                <th colspan="2" style="text-align: left;">EXEMPLO 1 – 200.10.10.55 /26</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td style=" width: 60%"><strong>Com/sem classe?</strong></td>
+                <td style="width: 40%;"></td>
+              </tr>
+              <tr>
+                <td><strong>Máscara (n.d.p.)</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>End. Público/Privado?</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>N, S & H (bits)?</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>Número de subredes</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>Endereço da rede</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>1º end. válido</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>Últ. end. válido</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>End. de broadcast</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>Número máx. de hosts/rede</strong></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+
+          <table border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; font-family: Arial, sans-serif; width: 70%;">
+            <thead style="background-color: #0074c1; color: white;">
+              <tr>
+                <th colspan="2" style="text-align: left;">EXEMPLO 2 – 204.10.10.155 /27</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td style=" width: 60%"><strong>Com/sem classe?</strong></td>
+                <td style="width: 40%;"></td>
+              </tr>
+              <tr>
+                <td><strong>Máscara (n.d.p.)</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>End. Público/Privado?</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>N, S & H (bits)?</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>Número de subredes</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>Endereço da rede</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>1º end. válido</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>Últ. end. válido</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>End. de broadcast</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>Número máx. de hosts/rede</strong></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+
+          <table border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; font-family: Arial, sans-serif; width: 70%;">
+            <thead style="background-color: #0074c1; color: white;">
+              <tr>
+                <th colspan="2" style="text-align: left;">EXEMPLO 3 – 192.10.100.121 /30</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td style=" width: 60%"><strong>Com/sem classe?</strong></td>
+                <td style="width: 40%;"></td>
+              </tr>
+              <tr>
+                <td><strong>Máscara (n.d.p.)</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>End. Público/Privado?</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>N, S & H (bits)?</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>Número de subredes</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>Endereço da rede</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>1º end. válido</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>Últ. end. válido</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>End. de broadcast</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>Número máx. de hosts/rede</strong></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+
+          <table border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; font-family: Arial, sans-serif; width: 70%;">
+            <thead style="background-color: #0074c1; color: white;">
+              <tr>
+                <th colspan="2" style="text-align: left;">EXEMPLO 4 – 214.10.10.55 /24</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td style=" width: 60%"><strong>Com/sem classe?</strong></td>
+                <td style="width: 40%;"></td>
+              </tr>
+              <tr>
+                <td><strong>Máscara (n.d.p.)</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>End. Público/Privado?</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>N, S & H (bits)?</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>Número de subredes</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>Endereço da rede</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>1º end. válido</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>Últ. end. válido</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>End. de broadcast</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>Número máx. de hosts/rede</strong></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+          
+          <li>Faça os cálculos requisitados abaixo:</li>
+
+        <table border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; font-family: Arial, sans-serif; width: 70%;">
+            <thead style="background-color: #0074c1; color: white;">
+              <tr>
+                <th colspan="2" style="text-align: left;">EXEMPLO 1 – 168.10.100.55 /22</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td style=" width: 60%"><strong>Com/sem classe?</strong></td>
+                <td style="width: 40%;"></td>
+              </tr>
+              <tr>
+                <td><strong>Máscara (n.d.p.)</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>End. Público/Privado?</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>N, S & H (bits)?</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>Número de subredes</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>Endereço da rede</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>1º end. válido</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>Últ. end. válido</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>End. de broadcast</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>Número máx. de hosts/rede</strong></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+
+          <table border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; font-family: Arial, sans-serif; width: 70%;">
+            <thead style="background-color: #0074c1; color: white;">
+              <tr>
+                <th colspan="2" style="text-align: left;">EXEMPLO 2 – 172.10.63.155 /20</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td style=" width: 60%"><strong>Com/sem classe?</strong></td>
+                <td style="width: 40%;"></td>
+              </tr>
+              <tr>
+                <td><strong>Máscara (n.d.p.)</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>End. Público/Privado?</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>N, S & H (bits)?</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>Número de subredes</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>Endereço da rede</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>1º end. válido</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>Últ. end. válido</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>End. de broadcast</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>Número máx. de hosts/rede</strong></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+
+          <table border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; font-family: Arial, sans-serif; width: 70%;">
+            <thead style="background-color: #0074c1; color: white;">
+              <tr>
+                <th colspan="2" style="text-align: left;">EXEMPLO 3 – 172.20.129.12 /23</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td style=" width: 60%"><strong>Com/sem classe?</strong></td>
+                <td style="width: 40%;"></td>
+              </tr>
+              <tr>
+                <td><strong>Máscara (n.d.p.)</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>End. Público/Privado?</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>N, S & H (bits)?</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>Número de subredes</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>Endereço da rede</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>1º end. válido</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>Últ. end. válido</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>End. de broadcast</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>Número máx. de hosts/rede</strong></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+
+          <table border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; font-family: Arial, sans-serif; width: 70%;">
+            <thead style="background-color: #0074c1; color: white;">
+              <tr>
+                <th colspan="2" style="text-align: left;">EXEMPLO 4 – 191.10.89.5 /18</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td style=" width: 60%"><strong>Com/sem classe?</strong></td>
+                <td style="width: 40%;"></td>
+              </tr>
+              <tr>
+                <td><strong>Máscara (n.d.p.)</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>End. Público/Privado?</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>N, S & H (bits)?</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>Número de subredes</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>Endereço da rede</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>1º end. válido</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>Últ. end. válido</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>End. de broadcast</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>Número máx. de hosts/rede</strong></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+
+          <li>Faça os cálculos requisitados abaixo:</li>
+
+        <table border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; font-family: Arial, sans-serif; width: 70%;">
+            <thead style="background-color: #0074c1; color: white;">
+              <tr>
+                <th colspan="2" style="text-align: left;">EXEMPLO 1 – 100.65.100.17 /11</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td style=" width: 60%"><strong>Com/sem classe?</strong></td>
+                <td style="width: 40%;"></td>
+              </tr>
+              <tr>
+                <td><strong>Máscara (n.d.p.)</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>End. Público/Privado?</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>N, S & H (bits)?</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>Número de subredes</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>Endereço da rede</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>1º end. válido</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>Últ. end. válido</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>End. de broadcast</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>Número máx. de hosts/rede</strong></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+
+          <table border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; font-family: Arial, sans-serif; width: 70%;">
+            <thead style="background-color: #0074c1; color: white;">
+              <tr>
+                <th colspan="2" style="text-align: left;">EXEMPLO 2 – 20.100.10.155 /12</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td style=" width: 60%"><strong>Com/sem classe?</strong></td>
+                <td style="width: 40%;"></td>
+              </tr>
+              <tr>
+                <td><strong>Máscara (n.d.p.)</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>End. Público/Privado?</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>N, S & H (bits)?</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>Número de subredes</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>Endereço da rede</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>1º end. válido</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>Últ. end. válido</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>End. de broadcast</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>Número máx. de hosts/rede</strong></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+
+          <table border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; font-family: Arial, sans-serif; width: 70%;">
+            <thead style="background-color: #0074c1; color: white;">
+              <tr>
+                <th colspan="2" style="text-align: left;">EXEMPLO 3 – 12.100.100.121 /10</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td style=" width: 60%"><strong>Com/sem classe?</strong></td>
+                <td style="width: 40%;"></td>
+              </tr>
+              <tr>
+                <td><strong>Máscara (n.d.p.)</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>End. Público/Privado?</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>N, S & H (bits)?</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>Número de subredes</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>Endereço da rede</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>1º end. válido</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>Últ. end. válido</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>End. de broadcast</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>Número máx. de hosts/rede</strong></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+
+          <table border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; font-family: Arial, sans-serif; width: 70%;">
+            <thead style="background-color: #0074c1; color: white;">
+              <tr>
+                <th colspan="2" style="text-align: left;">EXEMPLO 4 – 10.10.10.55 /15</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td style=" width: 60%"><strong>Com/sem classe?</strong></td>
+                <td style="width: 40%;"></td>
+              </tr>
+              <tr>
+                <td><strong>Máscara (n.d.p.)</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>End. Público/Privado?</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>N, S & H (bits)?</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>Número de subredes</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>Endereço da rede</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>1º end. válido</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>Últ. end. válido</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>End. de broadcast</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>Número máx. de hosts/rede</strong></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+
+          <table border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; font-family: Arial, sans-serif; width: 70%;">
+            <thead style="background-color: #0074c1; color: white;">
+              <tr>
+                <th colspan="2" style="text-align: left;">EXEMPLO 5 – 10.169.13.255 /8</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td style=" width: 60%"><strong>Com/sem classe?</strong></td>
+                <td style="width: 40%;"></td>
+              </tr>
+              <tr>
+                <td><strong>Máscara (n.d.p.)</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>End. Público/Privado?</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>N, S & H (bits)?</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>Número de subredes</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>Endereço da rede</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>1º end. válido</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>Últ. end. válido</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>End. de broadcast</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>Número máx. de hosts/rede</strong></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+          
+    </ol>
+    <h2>Tópico 2: Introdução ao Endereçamento IPv6</h2>
+    <ol class="questionaire">
+        <li>O que é o IPv6 e por que ele foi criado? Comente os principais motivos técnicos e históricos que justificam sua existência.</li>
+        <li>Explique como é formada a estrutura de um endereço IPv6. Qual o tamanho total (em bits) e como esse endereço é representado?</li>
+        <li>Compare a notação de endereçamento do IPv4 com a do IPv6. Quais são as principais diferenças visuais e técnicas?</li>
+        <li>A transição do IPv4 para o IPv6 ainda é um desafio em muitos países. Quais fatores dificultam essa mudança?</li>
+        <li>Você considera importante aprender IPv6 mesmo que muitas redes ainda utilizem IPv4? Justifique seu ponto de vista com base em tendências tecnológicas.</li>
+        <li>Um técnico recebeu o endereço IPv6: 2340:0000:0010:0100:1000:ABCD:0101:1010. Explique como esse endereço pode ser abreviado corretamente e por quê.</li>
+        <li>Um técnico recebeu o endereço IPv6: 210F:0000:0000:0000:CCCC:0000:0000:000D. Explique como esse endereço pode ser abreviado corretamente e por quê.</li>
+    </ol>
+    <h2>Tópico 3: Configuração básica de redes no Windows e Linux</h2>
+    <ol class="questionaire">
+        <li>Em redes grandes, por que pode ser mais vantajoso utilizar DHCP em vez de configurar IPs manualmente em cada estação?</li>
+        <li>Qual é a utilidade do comando ipconfig no Windows e como ele se relaciona com o ifconfig ou ip no Linux? Dê exemplos de uso.</li>
+        <li>Explique a função do gateway padrão e dos servidores DNS no processo de configuração de rede em sistemas operacionais.</li>
+        <li>Em um cenário com falha de navegação, como você confirmaria se o problema está relacionado ao servidor DNS? Qual teste faria?</li>
+        <li>Um usuário com Windows recebeu um IP 169.254.x.x. O que isso significa e o que pode ter causado essa situação?</li>
+        <li>Se fosse responsável por documentar a configuração de rede de uma empresa, quais informações você incluiria para facilitar o suporte técnico?</li>
+    </ol>
+
+    <br>
+
+    <footer>
+      © Copyright | Rafael Moraes
+  </footer>
+</body>
+</html>
