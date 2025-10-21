@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="author" content="Rafael de Moraes">
+    <link rel="stylesheet" href="../assets/css/style-modules.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="../assets/img/favicon.ico">
+    <title>Módulo 3 | Redes</title>
+</head>
+
+<body>
+
+    <h1 class="module-tittle" id="begin-module3">📖 Módulo 3 | Configuração de Switches e Roteadores</h1>
+
+    <p class="main-objectives">🎯 <strong>Objetivo:</strong> Ensinar a configuração prática e aprofundada de switches e roteadores, garantindo conectividade eficiente dentro da rede.</p>
+
+    <!--Inital Module Table-->
+
+    <table class="table-module-content">
+        <colgroup>
+            <col style="width: 10%; text-align: center;"> <!-- Primeira coluna -->
+            <col style="width: 70%;"> <!-- Segunda coluna -->
+            <col style="width: 20%;"> <!-- Terceira coluna -->
+        </colgroup>
+
+        <caption>Distribuição Detalhada das Horas do Módulo 3</caption>
+
+        <thead class="table-module-content">
+            <tr>
+                <th class="table-module-header">#</th>
+                <th class="table-module-header">Tópico</th>
+                <th class="table-module-header">Carga Horária (h/aula)</th>
+            </tr>
+        </thead>
+
+        <tbody class="table-module-content">
+            <tr>
+                <td class="first-columm">1️⃣</td>
+                <td><a href=#module2-topic1>Utilizando a Interface de Linha de Comandos</a></td>
+                <td class="third-columm">4h</td>
+            </tr>
+            <tr>
+                <td class="first-columm">2️⃣</td>
+                <td><a href="#module2-topic2">Conceitos Básicos de Switches nas LANs Ethernet</a></td>
+                <td class="third-columm">4h</td>
+            </tr>
+            <tr>
+                <td class="first-columm">3️⃣</td>
+                <td><a href="#module2-topic3">Configuração Básica de Gerenciamento do Switch</a></td>
+                <td class="third-columm">6h</td>
+            </tr>
+            <tr>
+                <td class="first-columm">4️⃣</td>
+                <td><a href="#module2-topic4">Configurando as Interfaces do Switch</a></td>
+                <td class="third-columm">6h</td>
+            </tr>
+            <tr>
+                <td class="first-columm">5️⃣</td>
+                <td><a href="#module2-topic4">Virtual LANs</a></td>
+                <td class="third-columm">6h</td>
+            </tr>
+            <tr>
+                <td class="first-columm">⚙️</td>
+                <td><a href="#assessment-mod1">Avaliação Prática I</a></td>
+                <td class="third-columm">2h</td>
+            </tr>
+            <tr>
+                <td class="first-columm">⚙️</td>
+                <td><a href="#assessment-practice-mod1">Avaliação Prática II</a></td>
+                <td class="third-columm">2h</td>
+            </tr>
+        </tbody>
+
+        <tfoot class="table-module-foot">
+            <tr>
+                <td class="first-columm">Total</td>
+                <td>Carga Horária Total</td>
+                <td class="third-columm">30h</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <p class="back-to-page">⬆️ <a href="../index.html">retornar à página inicial</a></p>
+
+    <section class="topic-section" id="module3-topic1">
+        <h2 class="topic-tittle">Tópico 01 Utilizando a Interface de Linha de Comandos (4h)</h2>
+
+        <p class="objectives">🚩 <strong>Objetivo:</strong> Configurar e verificar a configuração inicial do switch, incluindo salvar ou recuperar as configurações do equipamento.</p>
+
+        <h3 class="subtopic-tittle">✅ Agenda do LAB 1</h3>
+        <ul>
+            <li>Como são os switches?</li>
+            <li>Acessando um switch via Cliente-Servidor</li>
+            <li>Funcionalidades de Ajuda da CLI</li>
+            <li>Os comandos show e debug</li>
+            <li>Configurando o dispositivo</li>
+        </ul>
+
+        <h3 class="subtopic-references">📚 Materiais de Referência Recomendados</h3>
+        <h4 class="subtopic-references-tittle">🖥 Videoaulas Originais do Curso</h4>
+        <ul class="subtopic-references-list">
+            <li><a href="https://youtu.be/xeZ3ZbME8PM?si=lhSV3CKvxS9_-Ir8" target="_blank">Utilizando a Interface de Linha de Comandos (Parte 1/4)</a> (Rafael Moraes)</li>
+            <li><a href="https://youtu.be/deqc-Pp4zQ0?si=xSd2daY8VL2yBZh0" target="_blank">Utilizando a Interface de Linha de Comandos (Parte 2/4)</a> (Rafael Moraes)
+            </li>
+            <li><a href="https://youtu.be/Jv5VpFyTlDY?si=e97dJLwod-EDW8D4" target="_blank">Utilizando a Interface de Linha de Comandos (Parte 3/4)</a>
+                (Rafael Moraes)</li>
+            <li><a href="https://youtu.be/UZF5Iox817g?si=8NgqOcHen5xxGid2" target="_blank">Utilizando a Interface de Linha de Comandos (Parte 4/4)</a>
+                (Rafael Moraes)</li>
+            <li><a href="https://docs.google.com/document/d/1e_RZJvGJ8Io7nIqEMXbwctm_wghR7kVl6YE0q3nrkto/edit?usp=sharing">Prática de Laboratório 01 - Utilizando a Interface de Linha de Comandos</a> (Rafael Moraes)</li>
+            <li><a href="https://youtu.be/0WWEomylEW4?si=P8MemvkWxySQesKY">Resolução do LAB 01</a> (Rafael Moraes)</li>
+        </ul>
+        <h4 class="subtopic-references-tittle">📕 Referências Bibliográficas</h4>
+        <ul class="subtopic-references-list">
+            <li><strong>Cisco CCENT/CCNA ICND1 100-101</strong> Cisco Press, 2016 - ODOM, Wendell.</li>
+            <ul>
+                <li><strong>Capítulo 6 – Construindo LANs Ethernet com Switches</strong></li>
+                <li><strong>Capítulo 7 – Instalando e Operando Switches LAN da Cisco</strong></li>
+            </ul>
+            <p>⬆️ <a href="#begin-module3">voltar</a></p>
+    </section>
+
+    <section class="topic-section" id="module3-topic2">
+        <h2 class="topic-tittle">Tópico 02 Conceitos Básicos de Switches de LANs Ethernet (4h)</h2>
+
+        <p class="objectives">🚩 <strong>Objetivo:</strong> Configurar interfaces, e verificar características de segurança de rede de um dispositivo, tais como: senah de segurança, enable secret e enable, ssh, vty e senha de serviço.</p>
+
+        <h3 class="subtopic-tittle">✅ Agenda do LAB 2</h3>
+        <ul>
+            <li>Conceitos de switching na LAN</li>
+            <li>Visão geral da Lógica do Switch</li>
+            <li>Verificando e Analisando o funcionamento do Switch</li>
+        </ul>
+
+        <h3 class="subtopic-references">📚 Materiais de Referência Recomendados</h3>
+        <h4 class="subtopic-references-tittle">🖥 Videoaulas Originais do Curso</h4>
+        <ul class="subtopic-references-list">
+            <li><a href="https://youtu.be/83_wfKaiGlA?si=lqEpJnPnxtmgfFcP" target="_blank">Conceitos Básicos de Switches nas LANs Ethernet (Parte 1/3)</a> (Rafael Moraes)</li>
+            <li><a href="https://youtu.be/cXBUqwaqrDc?si=fGzY5nFm2vKH656z" target="_blank">Conceitos Básicos de Switches nas LANs Ethernet (Parte 2/3)</a> (Rafael Moraes)
+            </li>
+            <li><a href="https://youtu.be/tQZ6-HyBdSA?si=fVFNQUOxXNBQbjKy" target="_blank">Conceitos Básicos de Switches nas LANs Ethernet (Parte 3/3)</a>
+                (Rafael Moraes)</li>
+            <li><a href="https://docs.google.com/document/d/1spLXPeKtJuYDho4djpgp0E3kYtYUIa06qaoOdbmzSyc/edit?usp=sharing">Prática de Laboratório 02 - Conceitos Básicos de Switches de LANs Ethernet</a> (Rafael Moraes)</li>
+            <li><a href="https://youtu.be/zTUZtZjfeCc?si=iXmMqihNurSns_SG">Resolução do LAB 02</a> (Rafael Moraes)</li>
+        </ul>
+        <h4 class="subtopic-references-tittle">📕 Referências Bibliográficas</h4>
+        <ul class="subtopic-references-list">
+            <li><strong>Cisco CCENT/CCNA ICND1 100-101</strong> Cisco Press, 2016 - ODOM, Wendell.</li>
+            <ul>
+                <li><strong>Capítulo 8 – Configurando Switches Ethernet</strong></li>
+            </ul>
+            <p>⬆️ <a href="#begin-module3">voltar</a></p>
+    </section>
+
+    <section class="topic-section" id="module3-topic3">
+        <h2 class="topic-tittle">Tópico 03 Configuração Básica de Gerenciamento do Switch (6h)</h2>
+
+        <p class="objectives">🚩 <strong>Objetivo:</strong> Configurar interfaces, e verificar características de segurança de rede de um dispositivo, tais como: senha de segurança, enable secret e enable, ssh, vty e senha de serviço.</p>
+
+        <h3 class="subtopic-tittle">✅ Agenda do LAB 3</h3>
+        <ul>
+            <li>Tornando seguro o acesso à CLI do Switch</li>
+            <li>Habilitando o IPv4 para o Acesso Remoto</li>
+            <li>Miscelânea de Configurações Úteis no Laboratório</li>
+        </ul>
+
+        <h3 class="subtopic-references">📚 Materiais de Referência Recomendados</h3>
+        <h4 class="subtopic-references-tittle">🖥 Videoaulas Originais do Curso</h4>
+        <ul class="subtopic-references-list">
+            <li><a href="https://youtu.be/tHmXg7RthBc?si=x0AcqH5v3L-Buh2P" target="_blank">Configuração Básica de Gerenciamento do Switch (Parte 1/4)</a> (Rafael Moraes)</li>
+            <li><a href="https://youtu.be/8aqB-zKoJGo?si=J-f9jd_WRjGCdO6P" target="_blank">Configuração Básica de Gerenciamento do Switch (Parte 2/4)</a> (Rafael Moraes)
+            </li>
+            <li><a href="https://youtu.be/miGza2v40-8?si=EYmHxlkO45JPAVNj" target="_blank">Configuração Básica de Gerenciamento do Switch (Parte 3/4)</a>
+                (Rafael Moraes)</li>
+            <li><a href="https://youtu.be/LJqR5scWHHs?si=aCloou9lbfS5orS1" target="_blank">Configuração Básica de Gerenciamento do Switch (Parte 4/4)</a>
+                (Rafael Moraes)</li>
+            <li><a href="https://docs.google.com/document/d/1UPHvKU8Y3GT6dW-IP05Gx2-awBMpzr1MOOb5VZOBnDc/edit?usp=sharing">Prática de Laboratório 03 - Configuração Básica de Gerenciamento dos Switches</a> (Rafael Moraes)</li>
+            <li><a href="https://youtu.be/3qn-vIav-zo?si=mFlCdxPJX6Wu2QlZ">Resolução do LAB 03</a> (Rafael Moraes)</li>
+        </ul>
+        <h4 class="subtopic-references-tittle">📕 Referências Bibliográficas</h4>
+        <ul class="subtopic-references-list">
+            <li><strong>Cisco CCENT/CCNA ICND1 100-101</strong> Cisco Press, 2016 - ODOM, Wendell.</li>
+            <ul>
+                <li><strong>Capítulo 8 – Configurando Switches Ethernet</strong></li>
+            </ul>
+            <p>⬆️ <a href="#begin-module3">voltar</a></p>
+    </section>
+
+     <section class="topic-section" id="module3-topic3">
+        <h2 class="topic-tittle">Tópico 04 Configurando as Interfaces do Switch (6h)</h2>
+
+        <p class="objectives">🚩 <strong>Objetivo:</strong> Configurar algumas funções específicas do switch, muitas das quais têm impacto em como a segurança do equipamento funciona.</p>
+
+        <h3 class="subtopic-tittle">✅ Agenda do LAB 4</h3>
+        <ul>
+            <li>Configurar e verificar características da Segurança da Porta de switch</li>
+            <ul>
+                <li>Sticky MAC</li>
+                <li>Limitação de endereço MAC</li>
+                <li>Modos de violação</li>
+                <li>Desligar portas ociosas</li>
+                <li>Recuperação de err desativado</li>
+            </ul>
+        </ul>
+
+        <h3 class="subtopic-references">📚 Materiais de Referência Recomendados</h3>
+        <h4 class="subtopic-references-tittle">🖥 Videoaulas Originais do Curso</h4>
+        <ul class="subtopic-references-list">
+            <li><a href="https://youtu.be/bX_-Yctblv4?si=skg7LlLZnmn7z6ZqP" target="_blank">Configurando as Interfaces do Switch (Parte 1/4)</a> (Rafael Moraes)</li>
+            <li><a href="https://youtu.be/YYgH-xgrp5c?si=Hpa7jNW5xB1iPcrg" target="_blank">Configurando as Interfaces do Switch (Parte 2/4) (Parte 2/4)</a> (Rafael Moraes)
+            </li>
+            <li><a href="https://youtu.be/K2LksGoMk3I?si=NbjXP3cYhsqYVnGv" target="_blank">Configurando as Interfaces do Switch (Parte 3/4)</a>
+                (Rafael Moraes)</li>
+            <li><a href="https://youtu.be/iiXl3_ZrcM8?si=LWjIrEnLiOyeTDnk" target="_blank">Configurando as Interfaces do Switch (Parte 4/4)</a>
+                (Rafael Moraes)</li>
+            <li><a href="https://docs.google.com/document/d/1_ulfKN0UjCofb_6Ujmo-t24MXLtgz3PnHaS0eyUYRVk/edit?usp=sharing">Prática de Laboratório 04 - Configurando as Interfaces do Switch</a> (Rafael Moraes)</li>
+            <li><a href="https://youtu.be/6mlGtvMU984?si=5vz0Rfl9Dq5222cX">Resolução do LAB 04</a> (Rafael Moraes)</li>
+        </ul>
+        <h4 class="subtopic-references-tittle">📕 Referências Bibliográficas</h4>
+        <ul class="subtopic-references-list">
+            <li><strong>Cisco CCENT/CCNA ICND1 100-101</strong> Cisco Press, 2016 - ODOM, Wendell.</li>
+            <ul>
+                <li><strong>Capítulo 8 – Configurando Switches Ethernet</strong></li>
+            </ul>
+            <p>⬆️ <a href="#begin-module3">voltar</a></p>
+    </section>
+
+    <section class="topic-section" id="module3-topic5">
+        <h2 class="topic-tittle">Tópico 05 Virtual LANs (6h)</h2>
+
+        <p class="objectives">🚩 <strong>Objetivo:</strong> compreender os princípios fundamentais das VLANs, analisando como elas funcionam em um único switch para segmentar a rede e otimizar o tráfego interno, além de aprender a configurar enlaces trunk que permitam a extensão de múltiplas VLANs por diferentes switches e o roteamento entre elas por meio de um roteador, bem como entender e aplicar a atribuição estática de interfaces a VLANs, garantindo o controle e a organização do tráfego de rede conforme o planejamento lógico da infraestrutura.</p>
+
+        <h3 class="subtopic-tittle">✅ Agenda do LAB 5</h3>
+        <ul>
+            <li>Criando VLAN, e designando interfaces à VLAN</li>
+            <li>Principais comandos para criar e verificar VLANs</li>
+            <li>Protocolos de Trunking VLAN 802.1Q e ISL</li>
+            <li>Configuração de Trunking de VLAN</li>
+            <li>Implemenando interfaces conectadas com telefones</li>
+            <li>Controlando quais VLANs podem ser usadas em um trunk</li>
+            <li>Troubleshooting com VLANs</li>
+        </ul>
+
+        <h3 class="subtopic-references">📚 Materiais de Referência Recomendados</h3>
+        <h4 class="subtopic-references-tittle">🖥 Videoaulas Originais do Curso</h4>
+        <ul class="subtopic-references-list">
+            <li><a href="https://youtu.be/6P82PIgq3i4?si=cSgXevftirxeFoVT">Virtual LANs - Parte 1/3</a> (Rafael Moraes)</li>
+            <li><a href="https://youtu.be/resfO7-vzDI?si=gJZGKCE8BZbZLc32">Virtual LANs - Parte 2/3</a> (Rafael Moraes)</li>
+            <li><a href="https://youtu.be/Huz37dQNNFs?si=zBMzX5QES02Ic8Sw">Virtual LANs - Parte 3/3</a> (Rafael Moraes)</li>
+            <li><a href="https://docs.google.com/document/d/11pbwSDMqYwnCBa5WoaRSD55YJZuE6pw6p2kX8XaexUI/edit?usp=sharing">Prática de Laboratório 05 - Virtual LANs</a> (Rafael Moraes)</li>
+            <li><a href="https://youtu.be/_aZvK859eD4?si=JOxzJiDlvLgDkrvd">Resolução do LAB 05</a> (Rafael Moraes)</li>
+        </ul>
+       
+        <h4 class="subtopic-references-tittle">📕 Referências Bibliográficas</h4>
+        <ul class="subtopic-references-list">
+            <li><strong>Cisco CCENT/CCNA ICND1 100-101</strong> Cisco Press, 2016 - ODOM, Wendell.</li>
+            <ul>
+                <li><strong>Capítulo 9 – Implementando LANs Virtuais Ethernet</strong></li>
+                <li><strong>Capítulo 10 – Resolvendo Problemas com LANs Ethernet</strong></li>
+            </ul>
+            <p>⬆️ <a href="#begin-module3">voltar</a></p>
+    </section>
+
+</body>
