@@ -96,11 +96,10 @@
 
         <h3 class="subtopic-tittle">✅ Agenda do LAB 1</h3>
         <ul>
-            <li>Como são os switches?</li>
-            <li>Acessando um switch via Cliente-Servidor</li>
-            <li>Funcionalidades de Ajuda da CLI</li>
-            <li>Os comandos show e debug</li>
-            <li>Configurando o dispositivo</li>
+            <li>Diferenciar e configurar os modos de operação do switch, aplicando senhas de acesso para o modo privilegiado (<code>enable</code>) e para o modo de configuração global (<code>terminal</code>).</li>
+            <li>Configurar senhas de segurança para as portas de acesso local (<em>console</em>) e acesso remoto (<em>vty</em>).</li>
+            <li>Verificar e gerenciar configurações por meio dos comandos <code>show</code>, compreendendo como salvar, visualizar e apagar as configurações do equipamento.</li>
+            <li>Reiniciar dispositivos utilizando a interface de linha de comando (<em>CLI</em>).</li>
         </ul>
 
         <h3 class="subtopic-references">📚 Materiais de Referência Recomendados</h3>
@@ -133,10 +132,11 @@
 
         <h3 class="subtopic-tittle">✅ Agenda do LAB 2</h3>
         <ul>
-            <li>Conceitos de switching na LAN</li>
-            <li>Visão geral da Lógica do Switch</li>
-            <li>Verificando e Analisando o funcionamento do Switch</li>
+            <li>Visualizar e interpretar a tabela MAC do switch através dos comandos adequados, compreendendo seu papel no processo de comutação.</li>
+            <li>Configurar e monitorar o funcionamento das interfaces <em>GigabitEthernet</em> e <em>FastEthernet</em>, ajustando velocidades e modos duplex (<em>half/full</em>) conforme as necessidades da rede.</li>
+            <li>Configurar as placas de rede dos computadores em velocidades e modos duplex fixos.</li>
         </ul>
+
 
         <h3 class="subtopic-references">📚 Materiais de Referência Recomendados</h3>
         <h4 class="subtopic-references-tittle">🖥 Videoaulas Originais do Curso</h4>
@@ -165,10 +165,13 @@
 
         <h3 class="subtopic-tittle">✅ Agenda do LAB 3</h3>
         <ul>
-            <li>Tornando seguro o acesso à CLI do Switch</li>
-            <li>Habilitando o IPv4 para o Acesso Remoto</li>
-            <li>Miscelânea de Configurações Úteis no Laboratório</li>
+            <li>Compreender as diferenças entre as senhas em texto simples (<code>enable password</code>) e as senhas criptografadas (<code>enable secret</code>).</li>
+            <li>Configurar as interfaces VLAN, atribuindo endereçamento IP que permita o gerenciamento remoto do switch via <em>Telnet</em> e/ou <em>SSH</em>, bem como habilitar ou desabilitar a interface VLAN e definir o gateway padrão.</li>
+            <li>Configurar pares de usuário e senha para autenticação nos equipamentos durante o acesso remoto pelas linhas <em>VTY</em>.</li>
+            <li>Realizar o acesso remoto aos equipamentos a partir dos computadores, utilizando os protocolos <em>Telnet</em> e <em>SSH</em>.</li>
+            <li>Configurar endereço IP, máscara de sub-rede e gateway padrão nas interfaces de rede dos computadores.</li>
         </ul>
+
 
         <h3 class="subtopic-references">📚 Materiais de Referência Recomendados</h3>
         <h4 class="subtopic-references-tittle">🖥 Videoaulas Originais do Curso</h4>
@@ -201,11 +204,16 @@
         <ul>
             <li>Configurar e verificar características da Segurança da Porta de switch</li>
             <ul>
-                <li>Sticky MAC</li>
-                <li>Limitação de endereço MAC</li>
-                <li>Modos de violação</li>
-                <li>Desligar portas ociosas</li>
-                <li>Recuperação de err desativado</li>
+                <li>Configurar a velocidade, o modo duplex e a descrição das interfaces de rede.</li>
+                <li>Habilitar ou desabilitar administrativamente interfaces específicas.</li>
+                <li>Aplicar configurações em um conjunto consecutivo de interfaces, utilizando comandos de faixa (<em>range</em>).</li>
+                <li>Configurar e substituir, quando necessário, as placas de rede dos computadores conectados à topologia.</li>
+                <li>Remover as configurações de uma interface específica, retornando-a ao estado padrão.</li>
+                <li>Compreender os conceitos de autonegociação entre interfaces e identificar situações em que ela deve ser ajustada manualmente.</li>
+                <li>Verificar o funcionamento das interfaces por meio de seus status operacionais e contadores de tráfego, interpretando os resultados.</li>
+                <li>Configurar o recurso de <em>Port Security</em> nas interfaces, definindo modos de violação e limites de endereços MAC permitidos.</li>
+                <li>Identificar e recuperar interfaces desativadas em decorrência de violações de segurança.</li>
+                <li>Configurar interfaces em modo acesso (<em>access</em>) ou modo tronco (<em>trunk</em>), conforme o cenário de rede.</li>
             </ul>
         </ul>
 
@@ -213,7 +221,7 @@
         <h4 class="subtopic-references-tittle">🖥 Videoaulas Originais do Curso</h4>
         <ul class="subtopic-references-list">
             <li><a href="https://youtu.be/bX_-Yctblv4?si=skg7LlLZnmn7z6ZqP" target="_blank">Configurando as Interfaces do Switch (Parte 1/4)</a> (Rafael Moraes)</li>
-            <li><a href="https://youtu.be/YYgH-xgrp5c?si=Hpa7jNW5xB1iPcrg" target="_blank">Configurando as Interfaces do Switch (Parte 2/4) (Parte 2/4)</a> (Rafael Moraes)
+            <li><a href="https://youtu.be/YYgH-xgrp5c?si=Hpa7jNW5xB1iPcrg" target="_blank">Configurando as Interfaces do Switch (Parte 2/4)</a> (Rafael Moraes)
             </li>
             <li><a href="https://youtu.be/K2LksGoMk3I?si=NbjXP3cYhsqYVnGv" target="_blank">Configurando as Interfaces do Switch (Parte 3/4)</a>
                 (Rafael Moraes)</li>
@@ -238,14 +246,21 @@
 
         <h3 class="subtopic-tittle">✅ Agenda do LAB 5</h3>
         <ul>
-            <li>Criando VLAN, e designando interfaces à VLAN</li>
-            <li>Principais comandos para criar e verificar VLANs</li>
-            <li>Protocolos de Trunking VLAN 802.1Q e ISL</li>
-            <li>Configuração de Trunking de VLAN</li>
-            <li>Implemenando interfaces conectadas com telefones</li>
-            <li>Controlando quais VLANs podem ser usadas em um trunk</li>
-            <li>Troubleshooting com VLANs</li>
+            <li>Compreender os conceitos de domínios de colisão e domínios de broadcast, analisando sua influência no desempenho da rede.</li>
+            <li>Compreender a definição e o funcionamento de uma LAN e de VLANs, identificando suas vantagens na segmentação e segurança da rede.</li>
+            <li>Configurar e verificar o funcionamento das VLANs, incluindo criação, nomeação e atribuição de interfaces a cada VLAN.</li>
+            <li>Configurar as portas do switch em modo acesso (<em>access</em>) e modo tronco (<em>trunk</em>).</li>
+            <li>Configurar o funcionamento dos protocolos de tronco (ISL e IEEE 802.1Q), compreendendo suas diferenças e aplicação prática.</li>
+            <li>Definir faixas normais e estendidas de VLANs, identificando quando utilizar cada uma.</li>
+            <li>Verificar as interfaces associadas a cada VLAN por meio do comando <code>show vlan brief</code>.</li>
+            <li>Configurar o encaminhamento de tráfego entre VLANs, analisando como ocorre a intercomunicação entre segmentos.</li>
+            <li>Adicionar e configurar telefones IP na topologia, utilizando o recurso de <em>Voice VLAN</em> para segregar tráfego de voz e dados.</li>
+            <li>Configurar e gerenciar a VLAN nativa do switch.</li>
+            <li>Dar permissão ou negar VLANs específicas para trafegar em uma porta trunk, definindo as VLANs habilitadas na interface.</li>
+            <li>Apagar as configurações de VLAN do switch utilizando o comando <code>delete vlan.dat</code>.</li>
+            <li>Diagnosticar e solucionar problemas de configuração de VLAN, analisando erros comuns e suas correções.</li>
         </ul>
+
 
         <h3 class="subtopic-references">📚 Materiais de Referência Recomendados</h3>
         <h4 class="subtopic-references-tittle">🖥 Videoaulas Originais do Curso</h4>
